@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Kanit:ital,wght@0,300;0,400;1,300&family=Londrina+Outline&family=Poppins:wght@300&family=Raleway:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,100;1,200;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital@1&family=Roboto:wght@400;700&family=Vina+Sans&display=swap');
+
+
+:root {
+  --primary-dark: #5651e5;
+  --primary-light: #709dff;
+}
+
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+
+
+
+
+li {
+  @apply p-4 text-sm
+}
+
+button {
+  @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
+}
+
+h2{
+  @apply text-xl font-bold 
+}
+}
